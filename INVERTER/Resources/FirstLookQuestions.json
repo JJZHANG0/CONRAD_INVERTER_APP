@@ -1,0 +1,542 @@
+[
+  {
+    "id": "arrival",
+    "number": 1,
+    "question": {
+      "zh": "当你说“我没事”的时候，最希望对方怎么做？",
+      "en": "When you say “I’m okay,” what do you most hope the other person will do?"
+    },
+    "options": [
+      {
+        "id": "stay",
+        "text": {
+          "zh": "别急着问，先陪我待一会儿",
+          "en": "Stay with me without rushing to ask"
+        },
+        "echo": {
+          "zh": "你希望陪伴先于追问",
+          "en": "You hope presence can come before questions"
+        }
+      },
+      {
+        "id": "notice",
+        "text": {
+          "zh": "看出我其实有话没说完",
+          "en": "Notice there is more I have not said"
+        },
+        "echo": {
+          "zh": "你希望有人留意那些没有说完的话",
+          "en": "You hope someone notices what remains unsaid"
+        }
+      },
+      {
+        "id": "space",
+        "text": {
+          "zh": "相信我，让我自己缓一缓",
+          "en": "Believe me and give me a little space"
+        },
+        "echo": {
+          "zh": "你希望自己的节奏被尊重",
+          "en": "You want your own pace to be respected"
+        }
+      },
+      {
+        "id": "ask",
+        "text": {
+          "zh": "认真问一句：真的没事吗",
+          "en": "Gently ask if I really am okay"
+        },
+        "echo": {
+          "zh": "你期待一次认真而直接的关心",
+          "en": "You welcome a gentle, direct expression of care"
+        }
+      }
+    ]
+  },
+  {
+    "id": "closeness",
+    "number": 2,
+    "question": {
+      "zh": "哪一个瞬间，最容易让你觉得“这个人懂我”？",
+      "en": "Which moment most makes you feel understood?"
+    },
+    "options": [
+      {
+        "id": "remember",
+        "text": {
+          "zh": "记住我随口提过的小事",
+          "en": "They remember something I mentioned in passing"
+        },
+        "echo": {
+          "zh": "小事被记住，会让你感到被放在心上",
+          "en": "Being remembered in small ways helps you feel cared for"
+        }
+      },
+      {
+        "id": "listen",
+        "text": {
+          "zh": "听我说完，而不是立刻给建议",
+          "en": "They listen fully before offering advice"
+        },
+        "echo": {
+          "zh": "比起马上得到答案，你更在意先被听完",
+          "en": "Being fully heard matters more than an immediate solution"
+        }
+      },
+      {
+        "id": "room",
+        "text": {
+          "zh": "我安静时，也不要求我解释",
+          "en": "They let me be quiet without an explanation"
+        },
+        "echo": {
+          "zh": "你珍惜不必时刻解释自己的关系",
+          "en": "You value relationships where silence needs no explanation"
+        }
+      },
+      {
+        "id": "honest",
+        "text": {
+          "zh": "温柔地指出我没看见的部分",
+          "en": "They gently name something I had missed"
+        },
+        "echo": {
+          "zh": "你愿意在温柔而诚实的回应里看见新角度",
+          "en": "You welcome a fresh perspective when honesty comes with care"
+        }
+      }
+    ]
+  },
+  {
+    "id": "needs",
+    "number": 3,
+    "question": {
+      "zh": "你很想提出一个请求，最后却没有说出口。最可能是因为什么？",
+      "en": "You want to ask for something but hold back. What is most likely behind that pause?"
+    },
+    "options": [
+      {
+        "id": "burden",
+        "text": {
+          "zh": "怕给别人添麻烦",
+          "en": "I worry about being a burden"
+        },
+        "echo": {
+          "zh": "提出需求之前，你会先顾及对方的负担",
+          "en": "Before asking, you consider what it might cost the other person"
+        }
+      },
+      {
+        "id": "refusal",
+        "text": {
+          "zh": "怕被拒绝后，不知道怎么面对",
+          "en": "I am unsure how I would handle a refusal"
+        },
+        "echo": {
+          "zh": "你会在提出需求之前，先想一想被拒绝的可能",
+          "en": "You think about the possibility of refusal before asking"
+        }
+      },
+      {
+        "id": "words",
+        "text": {
+          "zh": "我还没弄清自己真正想要什么",
+          "en": "I am still finding out what I need"
+        },
+        "echo": {
+          "zh": "你需要先辨认自己的需求，再把它说清楚",
+          "en": "You need time to recognize a need before putting it into words"
+        }
+      },
+      {
+        "id": "ask",
+        "text": {
+          "zh": "我通常会说，只是会挑时机",
+          "en": "I usually ask, but choose the moment"
+        },
+        "echo": {
+          "zh": "你愿意表达需求，也在意开口的时机",
+          "en": "You are willing to ask, while paying attention to timing"
+        }
+      }
+    ]
+  },
+  {
+    "id": "distance",
+    "number": 4,
+    "question": {
+      "zh": "重要的人突然变得冷淡，你最先做的通常是什么？",
+      "en": "Someone important seems distant. What do you usually do first?"
+    },
+    "options": [
+      {
+        "id": "review",
+        "text": {
+          "zh": "回想自己是不是哪里做错了",
+          "en": "Revisit whether I did something wrong"
+        },
+        "echo": {
+          "zh": "关系发生变化时，你容易先回看自己做过什么",
+          "en": "When a relationship shifts, you first revisit your own part"
+        }
+      },
+      {
+        "id": "reach",
+        "text": {
+          "zh": "找一个机会，直接问清楚",
+          "en": "Find a moment to ask what is happening"
+        },
+        "echo": {
+          "zh": "你更愿意用沟通减少猜测",
+          "en": "You prefer a conversation to carrying unanswered guesses"
+        }
+      },
+      {
+        "id": "wait",
+        "text": {
+          "zh": "给彼此一点时间，再看一看",
+          "en": "Give us both some time and see"
+        },
+        "echo": {
+          "zh": "面对暂时的不确定，你会先留出一点时间",
+          "en": "You make room for time when things feel uncertain"
+        }
+      },
+      {
+        "id": "retreat",
+        "text": {
+          "zh": "也收回一点自己，避免更难受",
+          "en": "Pull back a little to protect myself"
+        },
+        "echo": {
+          "zh": "当靠近让你难受时，你会先保护自己的感受",
+          "en": "When closeness hurts, you first try to protect your feelings"
+        }
+      }
+    ]
+  },
+  {
+    "id": "alone",
+    "number": 5,
+    "question": {
+      "zh": "终于有一个完全属于自己的晚上，你更想怎么过？",
+      "en": "An evening is entirely yours. What would you most like to do?"
+    },
+    "options": [
+      {
+        "id": "quiet",
+        "text": {
+          "zh": "什么都不安排，安静地待着",
+          "en": "Leave it unplanned and enjoy the quiet"
+        },
+        "echo": {
+          "zh": "没有安排的安静，是你愿意留给自己的空间",
+          "en": "Unplanned quiet is space you want to keep for yourself"
+        }
+      },
+      {
+        "id": "create",
+        "text": {
+          "zh": "做一件没人催、但自己喜欢的事",
+          "en": "Do something I love without being hurried"
+        },
+        "echo": {
+          "zh": "你想把时间还给那些出于喜欢的事",
+          "en": "You want time for things you enjoy for their own sake"
+        }
+      },
+      {
+        "id": "share",
+        "text": {
+          "zh": "和一个不需要费力相处的人说说话",
+          "en": "Talk with someone whose company feels easy"
+        },
+        "echo": {
+          "zh": "让你放松的陪伴，是一种恢复精力的方式",
+          "en": "Easy company can be a way for you to recover energy"
+        }
+      },
+      {
+        "id": "order",
+        "text": {
+          "zh": "把生活整理一下，找回一点秩序",
+          "en": "Put things in order and feel grounded"
+        },
+        "echo": {
+          "zh": "一点可掌握的秩序，能让你重新安定下来",
+          "en": "A little manageable order helps you feel grounded"
+        }
+      }
+    ]
+  },
+  {
+    "id": "seen",
+    "number": 6,
+    "question": {
+      "zh": "如果今天只能被认真听见一句话，你想说哪一句？",
+      "en": "If one sentence could truly be heard today, which would it be?"
+    },
+    "options": [
+      {
+        "id": "effort",
+        "text": {
+          "zh": "“我已经很努力了。”",
+          "en": "“I really have been trying.”"
+        },
+        "echo": {
+          "zh": "此刻，你想让自己的努力被看见",
+          "en": "Right now, you want your effort to be seen"
+        }
+      },
+      {
+        "id": "need",
+        "text": {
+          "zh": "“我也需要被照顾。”",
+          "en": "“I need care sometimes, too.”"
+        },
+        "echo": {
+          "zh": "此刻，你也想为接受照顾留一个位置",
+          "en": "Right now, you want to make room to receive care, too"
+        }
+      },
+      {
+        "id": "pace",
+        "text": {
+          "zh": "“我想按自己的节奏来。”",
+          "en": "“I want to move at my own pace.”"
+        },
+        "echo": {
+          "zh": "此刻，你希望自己的节奏得到尊重",
+          "en": "Right now, you want your pace to be respected"
+        }
+      },
+      {
+        "id": "real",
+        "text": {
+          "zh": "“我想让你认识真实的我。”",
+          "en": "“I want you to know the real me.”"
+        },
+        "echo": {
+          "zh": "此刻，你期待的是更真实地被认识",
+          "en": "Right now, you hope to be known more honestly"
+        }
+      }
+    ]
+  },
+  {
+    "id": "choice",
+    "number": 7,
+    "question": {
+      "zh": "做一个可能让别人失望的决定时，什么最难放下？",
+      "en": "When a choice might disappoint someone, what is hardest to let go of?"
+    },
+    "options": [
+      {
+        "id": "bond",
+        "text": {
+          "zh": "怕关系因此变得不一样",
+          "en": "The possibility that our relationship changes"
+        },
+        "echo": {
+          "zh": "你在作选择时，会把关系的变化也放进考虑里",
+          "en": "When choosing, you also consider what may change between you"
+        }
+      },
+      {
+        "id": "guilt",
+        "text": {
+          "zh": "觉得自己好像不够好、不够体贴",
+          "en": "The feeling that I am not being considerate enough"
+        },
+        "echo": {
+          "zh": "照顾自己的决定，有时也会让你感到为难",
+          "en": "A choice that cares for you can still feel difficult"
+        }
+      },
+      {
+        "id": "certainty",
+        "text": {
+          "zh": "不知道自己选得对不对",
+          "en": "Not knowing whether I chose well"
+        },
+        "echo": {
+          "zh": "比起别人的反应，你也在寻找对自己选择的把握",
+          "en": "You are also looking for confidence in your own choice"
+        }
+      },
+      {
+        "id": "own",
+        "text": {
+          "zh": "会难受，但还是想对自己的选择负责",
+          "en": "It hurts, but I want to own my choice"
+        },
+        "echo": {
+          "zh": "即使带着不舒服，你仍愿意为自己的选择负责",
+          "en": "Even with discomfort, you want to take responsibility for your choice"
+        }
+      }
+    ]
+  },
+  {
+    "id": "repair",
+    "number": 8,
+    "question": {
+      "zh": "一次争执之后，什么最能让你重新靠近？",
+      "en": "After a disagreement, what helps you feel ready to reconnect?"
+    },
+    "options": [
+      {
+        "id": "understand",
+        "text": {
+          "zh": "对方真的听懂了我为什么难受",
+          "en": "They understand why it hurt"
+        },
+        "echo": {
+          "zh": "重新靠近之前，你在意自己的感受是否被理解",
+          "en": "Before reconnecting, you care whether your feelings have been understood"
+        }
+      },
+      {
+        "id": "change",
+        "text": {
+          "zh": "一句道歉之外，还有具体的改变",
+          "en": "There is a concrete change alongside an apology"
+        },
+        "echo": {
+          "zh": "比起一句好听的话，你更需要看得见的改变",
+          "en": "Visible change matters more to you than reassuring words alone"
+        }
+      },
+      {
+        "id": "time",
+        "text": {
+          "zh": "彼此冷静后，再慢慢说清楚",
+          "en": "We have time to settle, then talk it through"
+        },
+        "echo": {
+          "zh": "你愿意给修复一点时间，而不急着假装没事",
+          "en": "You want to give repair time instead of pretending everything is fine"
+        }
+      },
+      {
+        "id": "warmth",
+        "text": {
+          "zh": "一个真诚的小动作，让我知道关系还在",
+          "en": "A sincere small gesture reminds me the bond is still there"
+        },
+        "echo": {
+          "zh": "一个真诚的小动作，可以帮你重新感到连接",
+          "en": "A sincere small gesture can help you feel connected again"
+        }
+      }
+    ]
+  },
+  {
+    "id": "unseen",
+    "number": 9,
+    "question": {
+      "zh": "如果暂时不用向任何人证明什么，你最想允许自己怎样？",
+      "en": "If you had nothing to prove for a while, what would you allow yourself?"
+    },
+    "options": [
+      {
+        "id": "rest",
+        "text": {
+          "zh": "休息，不再为休息找理由",
+          "en": "Rest without having to justify it"
+        },
+        "echo": {
+          "zh": "你想试着让休息不再需要理由",
+          "en": "You want to let rest exist without a justification"
+        }
+      },
+      {
+        "id": "imperfect",
+        "text": {
+          "zh": "做得不那么完美，也不急着补救",
+          "en": "Leave something imperfect without rushing to fix it"
+        },
+        "echo": {
+          "zh": "你想给不完美留一点余地",
+          "en": "You want to leave a little room for imperfection"
+        }
+      },
+      {
+        "id": "explore",
+        "text": {
+          "zh": "试一件喜欢的事，即使没有结果",
+          "en": "Try something I love without needing an outcome"
+        },
+        "echo": {
+          "zh": "你想把喜欢放在结果之前一次",
+          "en": "You want to let enjoyment come before the outcome for once"
+        }
+      },
+      {
+        "id": "no",
+        "text": {
+          "zh": "说一次“不”，不附上很长的解释",
+          "en": "Say no without a long explanation"
+        },
+        "echo": {
+          "zh": "你想让一次拒绝不必附带那么多解释",
+          "en": "You want a no to stand without so much explanation"
+        }
+      }
+    ]
+  },
+  {
+    "id": "invitation",
+    "number": 10,
+    "question": {
+      "zh": "读完这份报告之后，你最希望带走什么？",
+      "en": "What would you most like to take away from this reflection?"
+    },
+    "options": [
+      {
+        "id": "permission",
+        "text": {
+          "zh": "一点“我可以这样”的允许",
+          "en": "A little permission to be as I am"
+        },
+        "echo": {
+          "zh": "给自己一点允许",
+          "en": "Give yourself a little permission"
+        }
+      },
+      {
+        "id": "clarity",
+        "text": {
+          "zh": "一句把我说不清的感受说清的话",
+          "en": "Words for a feeling I could not explain"
+        },
+        "echo": {
+          "zh": "给感受找到自己的名字",
+          "en": "Find your own words for what you feel"
+        }
+      },
+      {
+        "id": "courage",
+        "text": {
+          "zh": "一点去表达真实需求的勇气",
+          "en": "A little courage to express what I need"
+        },
+        "echo": {
+          "zh": "让真实的需求有机会被听见",
+          "en": "Give your real needs a chance to be heard"
+        }
+      },
+      {
+        "id": "gentleness",
+        "text": {
+          "zh": "一个更温柔地看待自己的角度",
+          "en": "A gentler way of looking at myself"
+        },
+        "echo": {
+          "zh": "试着用温柔的目光看自己",
+          "en": "Try looking at yourself with more gentleness"
+        }
+      }
+    ]
+  }
+]

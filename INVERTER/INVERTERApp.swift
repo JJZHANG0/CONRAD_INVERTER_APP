@@ -1,32 +1,29 @@
-//
-//  INVERTERApp.swift
-//  INVERTER
-//
-//  Created by JJ Zhang on 2026/11/11.
-//
-
 import SwiftUI
-import SwiftData
 
 @main
 struct INVERTERApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+    @State private var store: AppStore
+    init() {
+        let testing = ProcessInfo.processInfo.arguments.contains("--uitesting")
+        let testURL = URL.temporaryDirectory.appending(path: "inverter-uitest.json")
+        if testing && !ProcessInfo.processInfo.arguments.contains("--preserve-ui-data") { try? FileManager.default.removeItem(at: testURL) }
+        #if DEBUG
+        if UITestCloudTransport.enabled {
+            try? SessionVault.save(StoredSession(token: "ui-test-only", expiresAt: Date().addingTimeInterval(3600)), origin: CloudService.productionURL)
         }
-    }()
-
+        #endif
+        _store = State(initialValue: AppStore(fileURL: testing ? testURL : nil))
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppRootView().environment(store)
+                .preferredColorScheme(AppPreferences.shared.colorScheme)
+                .tint(.ink)
+                .environment(\.locale, AppPreferences.shared.locale)
+                .alert(L("本地存储需要处理"), isPresented: Binding(get: { store.persistenceError != nil }, set: { if !$0 { store.persistenceError = nil } })) {
+                    Button(L("重试保存")) { store.save() }
+                    Button(L("稍后处理"), role: .cancel) { }
+                } message: { Text(store.persistenceError ?? "") }
         }
-        .modelContainer(sharedModelContainer)
     }
 }
