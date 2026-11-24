@@ -70,7 +70,7 @@ Documentation/  接口约定、模拟器截图
 
 ## 验证
 
-Connect 本轮通过 36 项单元测试与 9 项相关界面测试；上一轮另通过 7 项引导界面测试、15 项网关与引导报告测试，历史验收见验证记录。界面测试使用显式 DEBUG 测试传输，真实模型调用另行验证，二者不混为同一结果。新版已安装到用户 iPhone 并成功启动；详细安装与验证结果见 [Documentation/Verification.md](Documentation/Verification.md)。
+四模式更新通过 38 项单元测试、4 项相关界面测试、20 项后端契约测试及 16 次真实公网模型请求。Connect 前一轮通过 36 项单元测试与 9 项相关界面测试；上一轮另通过 7 项引导界面测试、15 项网关与引导报告测试，历史验收见验证记录。界面测试使用显式 DEBUG 测试传输，真实模型调用另行验证，二者不混为同一结果。新版已安装到用户 iPhone 并成功启动；详细安装与验证结果见 [Documentation/Verification.md](Documentation/Verification.md)。
 
 [英文浅色首页](Documentation/Screenshots/Monochrome/iPhone-18-Pro/EN-Light-Home.png) · [中文深色首页](Documentation/Screenshots/Monochrome/iPhone-18-Pro/ZH-Dark-Home.png) · [深色关系球](Documentation/Screenshots/Monochrome/iPhone-18-Pro/ZH-Dark-Connections.png)
 

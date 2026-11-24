@@ -51,3 +51,10 @@ curl --fail https://47-76-244-254.sslip.io/health/ready
 更新 `chat.py` 支持 start / reply / finish、阶段推进、带逐字依据的结构化报告及安全分支。旧代码备份 `/opt/inverter/chat-before-guided.py`；代码 SHA-256 `68bd562fcf93bbe854d88f33cad811feb588d50c080bac9d38ca6d5e44ee50b5`。仍使用原模型环境、鉴权、证书和限制。服务 active / ready 已确认，真实公网五轮中文自动收束、英文开场与主动结束报告通过；测试账户已清理。
 
 `Scripts/VerifyChat.py` 只使用虚构内容，覆盖主动开场、多轮引导、自动收束、英文部分回顾、依据逐字核对与 401 / 422；不发送短信。结果暂存在 `/tmp/inverter-guided-synthetic-results.json`，不含凭据。
+
+
+## 2026-11-24 四种引导模式
+
+服务端从 GitHub 提交 `32db6f9b144b0e64e6837008540a431125171733` 下载 `chat.py`，通过 SHA-256 校验及 Python 编译后替换，重启 `inverter` 返回 active。新文件 SHA-256：`8d09ba1d5bf8cf8643bd4ff4813291a6173a900ad273aefb65da398504290a56`。回滚备份 `/opt/inverter/chat-before-modes-20261124.py`。模型密钥、账户鉴权与 HTTPS 配置不变。
+
+模式验收脚本 `Scripts/VerifyModes.py` 使用临时合成账户，覆盖四模式中文开场／追问／部分回顾及英文开场，核对响应 mode、报告逐字依据、401 与非法 mode 的 422，finally 删除测试账户。可选 `--proxy` 仅指定本次脚本使用的现有本地代理，不修改系统或服务端网络设置。
